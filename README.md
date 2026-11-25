@@ -12,6 +12,8 @@ Projects are saved server-side (Bun actions + Drizzle/SQLite) and every scene is
 - Frosted-glass UI after craftz.dog: translucent backdrop-blur panels, warm charcoal / cream themes, teal + pink accents
 - Import your own image as a textured plane, export/import scenes as JSON, save / duplicate / delete projects
 - GitHub export (Export tab): downloads a full source package — README, studio.json manifest, every built-in scene as entity JSON, the current scene, and all saved projects
+- Voxel Art Gallery (Studio/Gallery switch): built-in Voxel Dog + Voxel Desk plus every AI-generated piece, with front preview, palette, voxel count, prompt, date, and Open in Studio / Add to scene / Delete
+- ✨ AI Voxel chat panel: describe a piece, AI builds it as 60–220 matte cube voxels beside the current 3D scene — selectable, draggable, recolorable, animatable, savable, and stored in the gallery + export package
 
 ## Built-in scenes
 
