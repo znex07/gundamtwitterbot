@@ -1,0 +1,32 @@
+{
+  "name": "Game Development Studio",
+  "slug": "game-development-studio",
+  "description": "WebGL and WebGPU game development studio with 2D and 3D modes in one editor",
+  "backends": ["WebGL", "WebGPU"],
+  "modes": ["2D", "3D"],
+  "shading": ["Standard", "Ghibli"],
+  "scenes": [
+    "Tiny Dog — Super Deformed",
+    "Voxel Dog — Tiny Voxel",
+    "Dog Character 3D",
+    "Ghibli Meadow",
+    "Voxel Desk — Dog at Work",
+    "Neon Orbit 3D",
+    "Platformer Meadow 2D"
+  ],
+  "character": {
+    "species": "dog",
+    "style": "tiny super-deformed, panel head, smaller/flatter top, dog muzzle with black nose and XX",
+    "colors": {
+      "fur": "light tan",
+      "hoodie": "pale yellow",
+      "backpackBoots": "light tan / brown"
+    },
+    "finish": "voxel / dithering 3D, matte not glossy"
+  },
+  "ui": {
+    "inspiration": "craftz.dog",
+    "palette": {"background": "#202023", "teal": "#88CCCA"},
+    "panels": "frosted-glass blurry transparency (backdrop-blur)"
+  }
+}
