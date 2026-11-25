@@ -13,4 +13,6 @@ Contents of this folder:
 The studio itself (Export tab, or the "Full package" button by Export JSON) downloads the complete bundle as
 `game-development-studio-source-package.json`, which additionally includes the user's saved projects and the
 current scene at the moment of export — those live in the app database, so they are exported from the running
-studio rather than from this folder.
+studio rather than from this folder. The in-studio Full package now also includes `generatedVoxelArt` (every
+AI-generated voxel piece from the ✨ AI Voxel chat panel, shown in the Voxel Art Gallery); this folder still
+lists the 7 built-in scenes / 890 entities only.
