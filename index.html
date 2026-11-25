@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Development Studio — znex07</title>
+<style>
+  :root{--bg:#202023;--teal:#88CCCA;--pink:#ff7eb6;--text:#f5f0e8;--muted:#b8b2a7}
+  *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
+  .wrap{max-width:880px;margin:0 auto;padding:32px 20px 64px}
+  .glass{background:rgba(255,255,255,.08);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.14);border-radius:16px;padding:20px;margin:16px 0}
+  h1{font-size:2rem;margin:.2em 0} h2{color:var(--teal)} a{color:var(--pink)} .btn{display:inline-block;background:var(--teal);color:#10201f;padding:10px 16px;border-radius:10px;text-decoration:none;font-weight:700;margin:6px 6px 0 0}
+  .muted{color:var(--muted)} code{background:rgba(255,255,255,.1);padding:2px 6px;border-radius:6px}
+  ul{line-height:1.7}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p class="muted">znex07 / gundamtwitterbot · branch <code>game-development-studio</code></p>
+  <h1>Game Development Studio</h1>
+  <p>A WebGL and WebGPU game development studio with both 2D and 3D modes in one editor, built in Muse. Inspired by <a href="https://www.craftz.dog">craftz.dog</a> — frosted-glass blurry transparency, voxel 3D, and Ghibli-style toon shading.</p>
+  <div class="glass">
+    <h2>Scenes (890 entities)</h2>
+    <ul>
+      <li><strong>Voxel Dog — Tiny Voxel</strong> — 390 voxels, panel head, big muzzle, matte voxel finish</li>
+      <li><strong>Voxel Desk — Dog at Work</strong> — 399 entities, voxel dog at a desk with teal laptop</li>
+      <li><strong>Ghibli Meadow</strong> — 34 entities, toon trees, sun, drifting clouds</li>
+      <li><strong>Tiny Dog — Super Deformed</strong> — 30 entities, tiny panel-head dog</li>
+      <li><strong>Dog Character 3D</strong> — 20 entities, full-size dog</li>
+      <li><strong>Platformer Meadow 2D</strong> — 10 entities</li>
+      <li><strong>Neon Orbit 3D</strong> — 7 entities</li>
+    </ul>
+  </div>
+  <div class="glass">
+    <h2>Files on this branch</h2>
+    <p>
+      <a class="btn" href="./scenes.json">scenes.json</a>
+      <a class="btn" href="./studio.json">studio.json</a>
+      <a class="btn" href="./README.md">README.md</a>
+      <a class="btn" href="./PACKAGE.md">PACKAGE.md</a>
+    </p>
+    <p class="muted">The live studio runs as a Muse web artifact. This Pages site hosts the exported scenes, manifest, and docs. The character is a dog (not a pig): light tan fur, pale yellow hoodie, tiny super-deformed, smaller/flatter top head, dog muzzle with black nose and XX.</p>
+  </div>
+  <div class="glass">
+    <h2>Features</h2>
+    <ul>
+      <li>2D (orthographic) and 3D (perspective) modes, WebGL / WebGPU switcher</li>
+      <li>Inspector: position, rotation, scale, color, behaviors (spin, bounce, float, orbit, pulse, drift, patrol)</li>
+      <li>Play mode, scene-code view, JSON export/import, project saving</li>
+      <li>Standard / Ghibli shading toggle, Turntable auto-rotate</li>
+      <li>Export tab: full package download with all scenes and saved projects</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
