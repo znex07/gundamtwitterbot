@@ -1,32 +1,49 @@
 {
   "name": "Game Development Studio",
   "slug": "game-development-studio",
-  "description": "WebGL and WebGPU game development studio with 2D and 3D modes in one editor",
-  "backends": ["WebGL", "WebGPU"],
-  "modes": ["2D", "3D"],
-  "shading": ["Standard", "Ghibli"],
+  "runtime": "typescript",
+  "repository": {
+    "owner": "znex07",
+    "repo": "gundamtwitterbot",
+    "branch": "game-development-studio",
+    "url": "https://github.com/znex07/gundamtwitterbot/tree/game-development-studio"
+  },
+  "stack": {
+    "client": "React 19 + TypeScript + Tailwind CSS 4",
+    "engine": "three.js (WebGLRenderer + WebGPURenderer)",
+    "server": "Bun server actions + Drizzle ORM (SQLite)",
+    "sdk": "@hatch/space-sdk"
+  },
+  "modes": [
+    "2d",
+    "3d"
+  ],
+  "renderers": [
+    "webgl",
+    "webgpu"
+  ],
+  "shading": [
+    "standard",
+    "ghibli"
+  ],
   "scenes": [
-    "Tiny Dog — Super Deformed",
     "Voxel Dog — Tiny Voxel",
+    "Tiny Dog — Super Deformed",
     "Dog Character 3D",
-    "Ghibli Meadow",
     "Voxel Desk — Dog at Work",
+    "Ghibli Meadow",
     "Neon Orbit 3D",
     "Platformer Meadow 2D"
   ],
-  "character": {
-    "species": "dog",
-    "style": "tiny super-deformed, panel head, smaller/flatter top, dog muzzle with black nose and XX",
-    "colors": {
-      "fur": "light tan",
-      "hoodie": "pale yellow",
-      "backpackBoots": "light tan / brown"
-    },
-    "finish": "voxel / dithering 3D, matte not glossy"
-  },
-  "ui": {
-    "inspiration": "craftz.dog",
-    "palette": {"background": "#202023", "teal": "#88CCCA"},
-    "panels": "frosted-glass blurry transparency (backdrop-blur)"
-  }
+  "sourceFiles": [
+    "client/src/App.tsx",
+    "client/src/api.ts",
+    "client/src/theme.css",
+    "client/src/assets/pig-character.jpg",
+    "server/src/actions.ts",
+    "server/src/schema.ts",
+    "drizzle/",
+    "package.json",
+    "space.json"
+  ]
 }
