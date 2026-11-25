@@ -35,6 +35,12 @@
     "Neon Orbit 3D",
     "Platformer Meadow 2D"
   ],
+  "voxelArt": {
+    "gallery": true,
+    "aiCreator": "chat-prompt",
+    "voxelRange": "60-220",
+    "exportField": "generatedVoxelArt"
+  },
   "sourceFiles": [
     "client/src/App.tsx",
     "client/src/api.ts",
